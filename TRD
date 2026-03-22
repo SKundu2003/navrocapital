@@ -1,0 +1,56 @@
+Part 1: Technical Requirements Document (TRD)
+1. Project Overview
+Project Name: Navro Capital
+
+Client: Girish Bagrecha
+
+Mission: A premium, high-trust portfolio site for a specialist broker handling Bonds, Unlisted Stocks, and Mutual Funds.
+
+Primary Goal: Lead generation via WhatsApp, Form, and Call scheduling.
+
+2. Branding & UI/UX
+Theme: Bright/Light Mode only. Use a "Wealth Management" palette: White background, Deep Navy Blue or Emerald Green accents, and professional slate greys.
+
+Vibe: Minimalist, fast-loading, and authoritative.
+
+Interactions: All phone numbers and emails must be "Click to Copy" or "Click to Call/Mail."
+
+3. Core Pages & Features
+Home Page:
+
+Hero section with "Smart Wealth Management" & "Investment Management" messaging.
+
+Dynamic Market Insight: A text-only section on the home page.
+
+Admin Access: A hidden or low-profile /admin route with hardcoded credentials to update the Market Insight text.
+
+Bonds Page:
+
+Filterable/Searchable table using data from Bonds.xlsx.
+
+Columns: Issuance, Rating, Coupon, Indicative Yield, Maturity.
+
+Stocks Page:
+
+Focus on "Unlisted Equity Opportunities."
+
+Display based on the provided image (e.g., NSE, HDB, Swiggy, etc.).
+
+Mutual Funds Page: * Placeholder: "Coming Soon" with a "Notify Me" or "Inquire Now" button.
+
+
+Legal/Disclaimers: * Static page containing the Master Disclaimer, Bond Disclaimer, and Mutual Fund Disclaimer.
+
+4. Contact & Conversion
+WhatsApp: Floating button or direct link to +91 9731038350.
+
+Form: Simple lead gen (Name, Phone, Interest).
+
+Meeting: Integrated Calendly or similar 30-min meeting scheduler link.
+
+5. Technical Constraints
+Stack: Pure HTML5, CSS3 (Tailwind recommended), and Vanilla JS.
+
+Hosting: Netlify (Free Tier).
+
+Data: No database. The Bonds and Stocks data will be stored as a data.json file within the repository for maximum speed.
