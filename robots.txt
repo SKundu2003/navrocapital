@@ -1,0 +1,7 @@
+User-agent: *
+Allow: /
+Disallow: /login
+Disallow: /login.html
+Disallow: /admin.js
+
+Sitemap: https://navrocapital.in/sitemap.xml

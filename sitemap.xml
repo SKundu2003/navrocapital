@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+   <url>
+      <loc>https://navrocapital.in/</loc>
+      <lastmod>2024-05-15</lastmod>
+      <changefreq>weekly</changefreq>
+      <priority>1.0</priority>
+   </url>
+   <url>
+      <loc>https://navrocapital.in/bonds.html</loc>
+      <lastmod>2024-05-15</lastmod>
+      <changefreq>weekly</changefreq>
+      <priority>0.8</priority>
+   </url>
+   <url>
+      <loc>https://navrocapital.in/stocks.html</loc>
+      <lastmod>2024-05-15</lastmod>
+      <changefreq>weekly</changefreq>
+      <priority>0.8</priority>
+   </url>
+   <url>
+      <loc>https://navrocapital.in/mutual-funds.html</loc>
+      <lastmod>2024-05-15</lastmod>
+      <changefreq>weekly</changefreq>
+      <priority>0.8</priority>
+   </url>
+   <url>
+      <loc>https://navrocapital.in/terms.html</loc>
+      <lastmod>2024-05-15</lastmod>
+      <changefreq>monthly</changefreq>
+      <priority>0.5</priority>
+   </url>
+</urlset>
