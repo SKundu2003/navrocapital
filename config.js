@@ -13,7 +13,7 @@ const CONFIG = {
     name: 'Girish Bagrecha',
     phone: '+91 9731038350',
     phoneDisplay: '+91 97310 38350',
-    email: 'navrocapital@gmail.com',
+    email: 'girish.bagrecha@navrocapital.in',
     whatsappLink: 'https://wa.me/919731038350?text=Hi%20Girish%2C%20I%27m%20interested%20in%20learning%20more%20about%20investment%20opportunities.',
     meetingLink: 'https://cal.com/navrocapital-voj1ni/30min'
   },
