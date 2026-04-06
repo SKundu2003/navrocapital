@@ -191,13 +191,13 @@ function initMarketInsight() {
   const savedInsight = localStorage.getItem(CONFIG.storageKeys.marketInsight);
 
   if (savedInsight) {
-    insightText.textContent = savedInsight;
+    insightText.innerHTML = savedInsight;
   } else {
     // Load from data.js
     if (window.NAVRO_DATA && window.NAVRO_DATA.marketInsight) {
-      insightText.textContent = window.NAVRO_DATA.marketInsight;
+      insightText.innerHTML = window.NAVRO_DATA.marketInsight;
     } else {
-      insightText.textContent = 'Markets are showing resilience amid global uncertainty. Contact us for personalized insights.';
+      insightText.innerHTML = 'Markets are showing resilience amid global uncertainty. Contact us for personalized insights.';
     }
   }
 
@@ -209,7 +209,7 @@ function initMarketInsight() {
 
   if (insightEditBtn) {
     insightEditBtn.addEventListener('click', () => {
-      insightTextarea.value = insightText.textContent;
+      insightTextarea.value = insightText.innerHTML;
       insightText.style.display = 'none';
       insightEditor.classList.add('active');
       insightEditBtn.style.display = 'none';
@@ -221,7 +221,7 @@ function initMarketInsight() {
     insightSave.addEventListener('click', () => {
       const newText = insightTextarea.value.trim();
       if (newText) {
-        insightText.textContent = newText;
+        insightText.innerHTML = newText;
         localStorage.setItem(CONFIG.storageKeys.marketInsight, newText);
         showToast('Market insight updated successfully');
       }
@@ -398,8 +398,6 @@ function renderStockRows(stocks, tbody) {
     <tr data-name="${stock.name.toLowerCase()}">
       <td>${i + 1}</td>
       <td style="font-weight: 600; color: var(--slate-900);">${stock.name}</td>
-      <td style="font-weight: 600; color: var(--navy);">${stock.price}</td>
-      <td>${stock.faceValue}</td>
       <td>
         <a href="${CONFIG.contact.whatsappLink}" target="_blank" rel="noopener" class="inquire-link">
           Inquire

@@ -1,5 +1,40 @@
 window.NAVRO_DATA = {
-  "marketInsight": "Markets are showing resilience amid global uncertainty. Fixed income instruments continue to offer attractive yields in the 8.5%-13.5% range. We recommend diversifying across high-grade corporate bonds and select unlisted equities for optimal risk-adjusted returns. Speak with us to build a portfolio tailored to your goals.",
+  "marketInsight": `<h3 style="margin-bottom: 0.5rem; color: #FFFFFF;">Markets Week ends on a flat note — April 2, 2026</h3>
+<p style="margin-bottom: 1.5rem; color: rgba(255, 255, 255, 0.9);">The market showed a mixed performance this week. Here is a summary of key movements across asset classes:</p>
+
+<div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(200px, 1fr)); gap: 1rem; margin-bottom: 2rem;">
+  <div style="background: rgba(255, 255, 255, 0.1); padding: 1.25rem; border-radius: 12px; border: 1px solid rgba(255, 255, 255, 0.15); backdrop-filter: blur(4px);">
+    <strong style="color: #FFFFFF; font-size: 0.9rem; text-transform: uppercase; letter-spacing: 0.05em; display: block; margin-bottom: 0.5rem;">Equity Markets</strong>
+    <span style="color: rgba(255, 255, 255, 0.8);">Nifty: <strong style="color: #FFFFFF;">22,713.10</strong> (+0.15%)</span><br>
+    <span style="color: rgba(255, 255, 255, 0.8);">Sensex: <strong style="color: #FFFFFF;">73,319.55</strong> (+0.25%)</span>
+  </div>
+  <div style="background: rgba(255, 255, 255, 0.1); padding: 1.25rem; border-radius: 12px; border: 1px solid rgba(255, 255, 255, 0.15); backdrop-filter: blur(4px);">
+    <strong style="color: #FFFFFF; font-size: 0.9rem; text-transform: uppercase; letter-spacing: 0.05em; display: block; margin-bottom: 0.5rem;">Bonds (10-Y G.Sec)</strong>
+    <span style="color: rgba(255, 255, 255, 0.8);">Yield: <strong style="color: #FFFFFF;">7.102%</strong></span>
+  </div>
+  <div style="background: rgba(255, 255, 255, 0.1); padding: 1.25rem; border-radius: 12px; border: 1px solid rgba(255, 255, 255, 0.15); backdrop-filter: blur(4px);">
+    <strong style="color: #FFFFFF; font-size: 0.9rem; text-transform: uppercase; letter-spacing: 0.05em; display: block; margin-bottom: 0.5rem;">Commodities</strong>
+    <span style="color: rgba(255, 255, 255, 0.8);">Gold: <strong style="color: #FFFFFF;">₹ 1,45,601</strong> (-3.00%)</span><br>
+    <span style="color: rgba(255, 255, 255, 0.8);">Silver: <strong style="color: #FFFFFF;">₹ 2,29,100</strong> (-5.91%)</span>
+  </div>
+  <div style="background: rgba(255, 255, 255, 0.1); padding: 1.25rem; border-radius: 12px; border: 1px solid rgba(255, 255, 255, 0.15); backdrop-filter: blur(4px);">
+    <strong style="color: #FFFFFF; font-size: 0.9rem; text-transform: uppercase; letter-spacing: 0.05em; display: block; margin-bottom: 0.5rem;">Currency (USDINR)</strong>
+    <span style="color: rgba(255, 255, 255, 0.8);">Rate: <strong style="color: #FFFFFF;">93.143</strong></span>
+  </div>
+</div>
+
+<h4 style="color: #FFFFFF; margin-bottom: 0.75rem; border-bottom: 1px solid rgba(255, 255, 255, 0.1); padding-bottom: 0.5rem;">Corporate & Economic Highlights</h4>
+<ul style="margin-bottom: 2rem; padding-left: 1.5rem; line-height: 1.8; color: rgba(255, 255, 255, 0.85);">
+  <li><strong style="color: #FFFFFF;">HBL Engineering:</strong> Secured a ₹179.79 crore contract from Banaras Locomotive Works.</li>
+  <li><strong style="color: #FFFFFF;">Astra Microwave:</strong> JV Astra Rafael Comsys secured a ₹250 crore defense order.</li>
+  <li><strong style="color: #FFFFFF;">Global Manufacturing:</strong> India’s S&P PMI eased to 53.9 in March, indicating stable expansion.</li>
+  <li><strong style="color: #FFFFFF;">US Outlook:</strong> President Trump addressed the potential conclusion of the Iran conflict within weeks.</li>
+</ul>
+
+<div style="background: rgba(255, 255, 255, 0.05); border-left: 4px solid #10B981; padding: 1.5rem; border-radius: 0 12px 12px 0;">
+  <h4 style="margin-top: 0; color: #10B981; margin-bottom: 0.5rem;">Word of the Day: Acid-Test Ratio</h4>
+  <p style="margin-bottom: 0; color: rgba(255, 255, 255, 0.9); line-height: 1.6;">The <strong style="color: #FFFFFF;">Acid-Test Ratio</strong> (or Quick Ratio) measures if a company can immediately cover its short-term debts with its most liquid assets. A ratio above 1.0 is generally strong, showing solid liquidity without relying on inventory sales.</p>
+</div>`,
   "corporateBonds": [
     {
       "sno": 1,
@@ -326,84 +361,52 @@ window.NAVRO_DATA = {
   ],
   "stocks": [
     {
-      "name": "SBI Funds Management Ltd.",
-      "price": "\u20b9 761",
-      "faceValue": "\u20b9 1"
+      "name": "SBI Funds Management Ltd."
     },
     {
-      "name": "Parag Parikh Financial Advisory Services",
-      "price": "\u20b9 18,250",
-      "faceValue": "\u20b9 10"
+      "name": "Parag Parikh Financial Advisory Services"
     },
     {
-      "name": "Care Health Insurance Ltd.",
-      "price": "\u20b9 134.00",
-      "faceValue": "\u20b9 10"
+      "name": "Care Health Insurance Ltd."
     },
     {
-      "name": "Orbis Financial Corporation",
-      "price": "\u20b9 405.00",
-      "faceValue": "\u20b9 10"
+      "name": "Orbis Financial Corporation"
     },
     {
-      "name": "CSK",
-      "price": "\u20b9 240",
-      "faceValue": "\u20b9 0.1"
+      "name": "CSK"
     },
     {
-      "name": "Hero Fincorp",
-      "price": "\u20b9 1,045",
-      "faceValue": "\u20b9 10"
+      "name": "Hero Fincorp"
     },
     {
-      "name": "CIAL",
-      "price": "\u20b9 439",
-      "faceValue": "\u20b9 2"
+      "name": "CIAL"
     },
     {
-      "name": "Incred Holdings",
-      "price": "\u20b9 154.50",
-      "faceValue": "\u20b9 10"
+      "name": "Incred Holdings"
     },
     {
-      "name": "Vivriti Capital",
-      "price": "\u20b9 883",
-      "faceValue": "\u20b9 10"
+      "name": "Vivriti Capital"
     },
     {
-      "name": "Veeda Clinical Research",
-      "price": "\u20b9 457",
-      "faceValue": "\u20b9 10"
+      "name": "Veeda Clinical Research"
     },
     {
-      "name": "Oravel Stays (OYO)",
-      "price": "\u20b9 23.55",
-      "faceValue": "\u20b9 1"
+      "name": "Oravel Stays (OYO)"
     },
     {
-      "name": "Sterlite Electrical",
-      "price": "\u20b9 440",
-      "faceValue": "\u20b9 2"
+      "name": "Sterlite Electrical"
     },
     {
-      "name": "ESDS Software Solutions",
-      "price": "\u20b9 426",
-      "faceValue": "\u20b9 1"
+      "name": "ESDS Software Solutions"
     },
     {
-      "name": "Innov8 Workspaces India Limited",
-      "price": "\u20b9 49.50",
-      "faceValue": "\u20b9 1"
+      "name": "Innov8 Workspaces India Limited"
     },
     {
-      "name": "National Stock Exchange of India (NSE)",
-      "price": "\u20b9 1,953",
-      "faceValue": "\u20b9 1"
+      "name": "National Stock Exchange of India (NSE)"
     },
     {
-      "name": "Goodluck Defence and Aerospace",
-      "price": "\u20b9 304",
-      "faceValue": "\u20b9 10"
+      "name": "Goodluck Defence and Aerospace"
     }
   ],
   "equityFunds": [
