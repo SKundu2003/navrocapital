@@ -1,39 +1,67 @@
 window.NAVRO_DATA = {
-  "marketInsight": `<h3 style="margin-bottom: 0.5rem; color: #FFFFFF;">Markets Week ends on a flat note — April 2, 2026</h3>
-<p style="margin-bottom: 1.5rem; color: rgba(255, 255, 255, 0.9);">The market showed a mixed performance this week. Here is a summary of key movements across asset classes:</p>
+  "marketInsight": `<h3 style="margin-bottom: 0.5rem; color: #FFFFFF;">Market Week Ends on a Positive Note — April 17, 2026</h3>
+<p style="margin-bottom: 1.5rem; color: rgba(255, 255, 255, 0.9);">The market showed a positive performance this week. Here is a summary of key movements across asset classes:</p>
 
 <div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(200px, 1fr)); gap: 1rem; margin-bottom: 2rem;">
   <div style="background: rgba(255, 255, 255, 0.1); padding: 1.25rem; border-radius: 12px; border: 1px solid rgba(255, 255, 255, 0.15); backdrop-filter: blur(4px);">
     <strong style="color: #FFFFFF; font-size: 0.9rem; text-transform: uppercase; letter-spacing: 0.05em; display: block; margin-bottom: 0.5rem;">Equity Markets</strong>
-    <span style="color: rgba(255, 255, 255, 0.8);">Nifty: <strong style="color: #FFFFFF;">22,713.10</strong> (+0.15%)</span><br>
-    <span style="color: rgba(255, 255, 255, 0.8);">Sensex: <strong style="color: #FFFFFF;">73,319.55</strong> (+0.25%)</span>
+    <span style="color: rgba(255, 255, 255, 0.8);">Nifty: <strong style="color: #FFFFFF;">24,353.55</strong> (+0.65%)</span><br>
+    <span style="color: rgba(255, 255, 255, 0.8);">Sensex: <strong style="color: #FFFFFF;">78,493.54</strong> (+0.65%)</span>
   </div>
   <div style="background: rgba(255, 255, 255, 0.1); padding: 1.25rem; border-radius: 12px; border: 1px solid rgba(255, 255, 255, 0.15); backdrop-filter: blur(4px);">
     <strong style="color: #FFFFFF; font-size: 0.9rem; text-transform: uppercase; letter-spacing: 0.05em; display: block; margin-bottom: 0.5rem;">Bonds (10-Y G.Sec)</strong>
-    <span style="color: rgba(255, 255, 255, 0.8);">Yield: <strong style="color: #FFFFFF;">7.102%</strong></span>
+    <span style="color: rgba(255, 255, 255, 0.8);">Oct 2034 Yield: <strong style="color: #FFFFFF;">6.898%</strong></span>
   </div>
   <div style="background: rgba(255, 255, 255, 0.1); padding: 1.25rem; border-radius: 12px; border: 1px solid rgba(255, 255, 255, 0.15); backdrop-filter: blur(4px);">
     <strong style="color: #FFFFFF; font-size: 0.9rem; text-transform: uppercase; letter-spacing: 0.05em; display: block; margin-bottom: 0.5rem;">Commodities</strong>
-    <span style="color: rgba(255, 255, 255, 0.8);">Gold: <strong style="color: #FFFFFF;">₹ 1,45,601</strong> (-3.00%)</span><br>
-    <span style="color: rgba(255, 255, 255, 0.8);">Silver: <strong style="color: #FFFFFF;">₹ 2,29,100</strong> (-5.91%)</span>
+    <span style="color: rgba(255, 255, 255, 0.8);">Gold: <strong style="color: #FFFFFF;">₹ 1,53,069</strong> (-0.05%)</span><br>
+    <span style="color: rgba(255, 255, 255, 0.8);">Silver: <strong style="color: #FFFFFF;">₹ 2,51,700</strong> (+1.24%)</span>
   </div>
   <div style="background: rgba(255, 255, 255, 0.1); padding: 1.25rem; border-radius: 12px; border: 1px solid rgba(255, 255, 255, 0.15); backdrop-filter: blur(4px);">
     <strong style="color: #FFFFFF; font-size: 0.9rem; text-transform: uppercase; letter-spacing: 0.05em; display: block; margin-bottom: 0.5rem;">Currency (USDINR)</strong>
-    <span style="color: rgba(255, 255, 255, 0.8);">Rate: <strong style="color: #FFFFFF;">93.143</strong></span>
+    <span style="color: rgba(255, 255, 255, 0.8);">Rate: <strong style="color: #FFFFFF;">92.76</strong></span>
   </div>
 </div>
 
-<h4 style="color: #FFFFFF; margin-bottom: 0.75rem; border-bottom: 1px solid rgba(255, 255, 255, 0.1); padding-bottom: 0.5rem;">Corporate & Economic Highlights</h4>
-<ul style="margin-bottom: 2rem; padding-left: 1.5rem; line-height: 1.8; color: rgba(255, 255, 255, 0.85);">
-  <li><strong style="color: #FFFFFF;">HBL Engineering:</strong> Secured a ₹179.79 crore contract from Banaras Locomotive Works.</li>
-  <li><strong style="color: #FFFFFF;">Astra Microwave:</strong> JV Astra Rafael Comsys secured a ₹250 crore defense order.</li>
-  <li><strong style="color: #FFFFFF;">Global Manufacturing:</strong> India’s S&P PMI eased to 53.9 in March, indicating stable expansion.</li>
-  <li><strong style="color: #FFFFFF;">US Outlook:</strong> President Trump addressed the potential conclusion of the Iran conflict within weeks.</li>
-</ul>
+<div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(300px, 1fr)); gap: 2rem; margin-bottom: 2rem;">
+  <div>
+    <h4 style="color: #FFFFFF; margin-bottom: 0.75rem; border-bottom: 1px solid rgba(255, 255, 255, 0.1); padding-bottom: 0.5rem;">Domestic & International News</h4>
+    <ul style="padding-left: 1.25rem; line-height: 1.6; color: rgba(255, 255, 255, 0.85); font-size: 0.95rem;">
+      <li style="margin-bottom: 0.5rem;"><strong style="color: #FFFFFF;">CCI Update:</strong> Case against Adani Group closed, finding no evidence of anti-competitive practices.</li>
+      <li style="margin-bottom: 0.5rem;"><strong style="color: #FFFFFF;">Wipro Q4:</strong> Net profit down 2% YoY to ₹3,502 crore; revenue rose 8% to ₹24,236 crore.</li>
+      <li style="margin-bottom: 0.5rem;"><strong style="color: #FFFFFF;">Geopolitics:</strong> India invited by UK & France to join initiative for reopening Strait of Hormuz.</li>
+      <li style="margin-bottom: 0.5rem;"><strong style="color: #FFFFFF;">Corporate:</strong> Reed Hastings to step down from Netflix board in June; company eyes 16% revenue growth.</li>
+      <li><strong style="color: #FFFFFF;">AI Tech:</strong> Anthropic launched Claude Opus 4.7 focusing on safety and improved performance.</li>
+    </ul>
+  </div>
+  <div>
+    <h4 style="color: #FFFFFF; margin-bottom: 0.75rem; border-bottom: 1px solid rgba(255, 255, 255, 0.1); padding-bottom: 0.5rem;">Market Movers (Nifty 50)</h4>
+    <div style="display: grid; grid-template-columns: 1fr 1fr; gap: 1rem;">
+      <div>
+        <strong style="color: #10B981; font-size: 0.85rem; display: block; margin-bottom: 0.5rem;">TOP GAINERS</strong>
+        <ul style="list-style: none; padding: 0; margin: 0; color: rgba(255, 255, 255, 0.8); font-size: 0.9rem;">
+          <li style="margin-bottom: 0.25rem;">HUL <span style="color: #10B981;">+4.72%</span></li>
+          <li style="margin-bottom: 0.25rem;">Nestle India <span style="color: #10B981;">+2.20%</span></li>
+          <li style="margin-bottom: 0.25rem;">JSW Steel <span style="color: #10B981;">+2.20%</span></li>
+          <li>Apollo Hosp. <span style="color: #10B981;">+2.08%</span></li>
+        </ul>
+      </div>
+      <div>
+        <strong style="color: #EF4444; font-size: 0.85rem; display: block; margin-bottom: 0.5rem;">TOP LOSERS</strong>
+        <ul style="list-style: none; padding: 0; margin: 0; color: rgba(255, 255, 255, 0.8); font-size: 0.9rem;">
+          <li style="margin-bottom: 0.25rem;">Wipro <span style="color: #EF4444;">-2.83%</span></li>
+          <li style="margin-bottom: 0.25rem;">HDFC Life <span style="color: #EF4444;">-2.41%</span></li>
+          <li style="margin-bottom: 0.25rem;">Sun Pharma <span style="color: #EF4444;">-1.04%</span></li>
+          <li>Bajaj Auto <span style="color: #EF4444;">-0.76%</span></li>
+        </ul>
+      </div>
+    </div>
+  </div>
+</div>
 
 <div style="background: rgba(255, 255, 255, 0.05); border-left: 4px solid #10B981; padding: 1.5rem; border-radius: 0 12px 12px 0;">
-  <h4 style="margin-top: 0; color: #10B981; margin-bottom: 0.5rem;">Word of the Day: Acid-Test Ratio</h4>
-  <p style="margin-bottom: 0; color: rgba(255, 255, 255, 0.9); line-height: 1.6;">The <strong style="color: #FFFFFF;">Acid-Test Ratio</strong> (or Quick Ratio) measures if a company can immediately cover its short-term debts with its most liquid assets. A ratio above 1.0 is generally strong, showing solid liquidity without relying on inventory sales.</p>
+  <h4 style="margin-top: 0; color: #10B981; margin-bottom: 0.5rem;">Word of the Day: Debt-to-Equity Ratio</h4>
+  <p style="margin-bottom: 0; color: rgba(255, 255, 255, 0.9); line-height: 1.6;">The <strong style="color: #FFFFFF;">Debt-to-Equity (D/E) Ratio</strong> is used to evaluate a company's financial leverage and is calculated by dividing total liabilities by shareholder equity. It shows how much debt a company is using to finance its assets relative to the value of shareholders' equity.</p>
 </div>`,
   "corporateBonds": [
     {
