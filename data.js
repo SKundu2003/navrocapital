@@ -1,25 +1,25 @@
 window.NAVRO_DATA = {
-  "marketInsight": `<h3 style="margin-bottom: 0.5rem; color: #FFFFFF;">Market Week Ends on a Positive Note — April 17, 2026</h3>
-<p style="margin-bottom: 1.5rem; color: rgba(255, 255, 255, 0.9);">The market showed a positive performance this week. Here is a summary of key movements across asset classes:</p>
+  "marketInsight": `<h3 style="margin-bottom: 0.5rem; color: #FFFFFF;">Markets End on a Weak Note — May 29, 2026</h3>
+<p style="margin-bottom: 1.5rem; color: rgba(255, 255, 255, 0.9);">The market showed a weak performance today. Here is a summary of key movements across asset classes:</p>
 
 <div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(200px, 1fr)); gap: 1rem; margin-bottom: 2rem;">
   <div style="background: rgba(255, 255, 255, 0.1); padding: 1.25rem; border-radius: 12px; border: 1px solid rgba(255, 255, 255, 0.15); backdrop-filter: blur(4px);">
     <strong style="color: #FFFFFF; font-size: 0.9rem; text-transform: uppercase; letter-spacing: 0.05em; display: block; margin-bottom: 0.5rem;">Equity Markets</strong>
-    <span style="color: rgba(255, 255, 255, 0.8);">Nifty: <strong style="color: #FFFFFF;">24,353.55</strong> (+0.65%)</span><br>
-    <span style="color: rgba(255, 255, 255, 0.8);">Sensex: <strong style="color: #FFFFFF;">78,493.54</strong> (+0.65%)</span>
+    <span style="color: rgba(255, 255, 255, 0.8);">Nifty: <strong style="color: #FFFFFF;">23,547.75</strong> <span style="color: #EF4444;">(-1.50%)</span></span><br>
+    <span style="color: rgba(255, 255, 255, 0.8);">Sensex: <strong style="color: #FFFFFF;">74,775.74</strong> <span style="color: #EF4444;">(-1.44%)</span></span>
   </div>
   <div style="background: rgba(255, 255, 255, 0.1); padding: 1.25rem; border-radius: 12px; border: 1px solid rgba(255, 255, 255, 0.15); backdrop-filter: blur(4px);">
     <strong style="color: #FFFFFF; font-size: 0.9rem; text-transform: uppercase; letter-spacing: 0.05em; display: block; margin-bottom: 0.5rem;">Bonds (10-Y G.Sec)</strong>
-    <span style="color: rgba(255, 255, 255, 0.8);">Oct 2034 Yield: <strong style="color: #FFFFFF;">6.898%</strong></span>
+    <span style="color: rgba(255, 255, 255, 0.8);">Oct 2034 Yield: <strong style="color: #FFFFFF;">7.013%</strong></span>
   </div>
   <div style="background: rgba(255, 255, 255, 0.1); padding: 1.25rem; border-radius: 12px; border: 1px solid rgba(255, 255, 255, 0.15); backdrop-filter: blur(4px);">
     <strong style="color: #FFFFFF; font-size: 0.9rem; text-transform: uppercase; letter-spacing: 0.05em; display: block; margin-bottom: 0.5rem;">Commodities</strong>
-    <span style="color: rgba(255, 255, 255, 0.8);">Gold: <strong style="color: #FFFFFF;">₹ 1,53,069</strong> (-0.05%)</span><br>
-    <span style="color: rgba(255, 255, 255, 0.8);">Silver: <strong style="color: #FFFFFF;">₹ 2,51,700</strong> (+1.24%)</span>
+    <span style="color: rgba(255, 255, 255, 0.8);">Gold: <strong style="color: #FFFFFF;">₹ 1,56,048</strong> <span style="color: #EF4444;">(-0.56%)</span></span><br>
+    <span style="color: rgba(255, 255, 255, 0.8);">Silver: <strong style="color: #FFFFFF;">₹ 2,67,420</strong> <span style="color: #EF4444;">(-0.79%)</span></span>
   </div>
   <div style="background: rgba(255, 255, 255, 0.1); padding: 1.25rem; border-radius: 12px; border: 1px solid rgba(255, 255, 255, 0.15); backdrop-filter: blur(4px);">
     <strong style="color: #FFFFFF; font-size: 0.9rem; text-transform: uppercase; letter-spacing: 0.05em; display: block; margin-bottom: 0.5rem;">Currency (USDINR)</strong>
-    <span style="color: rgba(255, 255, 255, 0.8);">Rate: <strong style="color: #FFFFFF;">92.76</strong></span>
+    <span style="color: rgba(255, 255, 255, 0.8);">Rate: <strong style="color: #FFFFFF;">94.90</strong></span>
   </div>
 </div>
 
@@ -27,11 +27,11 @@ window.NAVRO_DATA = {
   <div>
     <h4 style="color: #FFFFFF; margin-bottom: 0.75rem; border-bottom: 1px solid rgba(255, 255, 255, 0.1); padding-bottom: 0.5rem;">Domestic & International News</h4>
     <ul style="padding-left: 1.25rem; line-height: 1.6; color: rgba(255, 255, 255, 0.85); font-size: 0.95rem;">
-      <li style="margin-bottom: 0.5rem;"><strong style="color: #FFFFFF;">CCI Update:</strong> Case against Adani Group closed, finding no evidence of anti-competitive practices.</li>
-      <li style="margin-bottom: 0.5rem;"><strong style="color: #FFFFFF;">Wipro Q4:</strong> Net profit down 2% YoY to ₹3,502 crore; revenue rose 8% to ₹24,236 crore.</li>
-      <li style="margin-bottom: 0.5rem;"><strong style="color: #FFFFFF;">Geopolitics:</strong> India invited by UK & France to join initiative for reopening Strait of Hormuz.</li>
-      <li style="margin-bottom: 0.5rem;"><strong style="color: #FFFFFF;">Corporate:</strong> Reed Hastings to step down from Netflix board in June; company eyes 16% revenue growth.</li>
-      <li><strong style="color: #FFFFFF;">AI Tech:</strong> Anthropic launched Claude Opus 4.7 focusing on safety and improved performance.</li>
+      <li style="margin-bottom: 0.5rem;"><strong style="color: #FFFFFF;">Aegis Logistics:</strong> Q4FY26 net profit rose 46% YoY to ₹410 crore; recommended final dividend of ₹6.70/share.</li>
+      <li style="margin-bottom: 0.5rem;"><strong style="color: #FFFFFF;">IndiGo:</strong> Q4FY26 net loss of ₹2,536 crore vs profit of ₹3,068 crore YoY due to ₹4,832 crore forex loss; revenue grew 1% to ₹22,438 crore.</li>
+      <li style="margin-bottom: 0.5rem;"><strong style="color: #FFFFFF;">Natco Pharma:</strong> Q4FY26 PAT declined 34% YoY to ₹268 crore; revenue fell 39% year-on-year.</li>
+      <li style="margin-bottom: 0.5rem;"><strong style="color: #FFFFFF;">Anthropic:</strong> Raised $65 billion at $965 billion valuation, reinforcing its position as a leading AI provider ahead of potential IPO.</li>
+      <li><strong style="color: #FFFFFF;">Dell Technologies:</strong> Q1 FY27 revenue of $43.8B (+88% YoY), EPS of $4.86 (+214% YoY), driven by record $51.3B AI backlog.</li>
     </ul>
   </div>
   <div>
@@ -40,19 +40,21 @@ window.NAVRO_DATA = {
       <div>
         <strong style="color: #10B981; font-size: 0.85rem; display: block; margin-bottom: 0.5rem;">TOP GAINERS</strong>
         <ul style="list-style: none; padding: 0; margin: 0; color: rgba(255, 255, 255, 0.8); font-size: 0.9rem;">
-          <li style="margin-bottom: 0.25rem;">HUL <span style="color: #10B981;">+4.72%</span></li>
-          <li style="margin-bottom: 0.25rem;">Nestle India <span style="color: #10B981;">+2.20%</span></li>
-          <li style="margin-bottom: 0.25rem;">JSW Steel <span style="color: #10B981;">+2.20%</span></li>
-          <li>Apollo Hosp. <span style="color: #10B981;">+2.08%</span></li>
+          <li style="margin-bottom: 0.25rem;">Tech Mahindra <span style="color: #10B981;">+1.68%</span></li>
+          <li style="margin-bottom: 0.25rem;">HCL Tech <span style="color: #10B981;">+1.44%</span></li>
+          <li style="margin-bottom: 0.25rem;">Wipro <span style="color: #10B981;">+1.25%</span></li>
+          <li style="margin-bottom: 0.25rem;">Nestle India <span style="color: #10B981;">+1.09%</span></li>
+          <li>L&T <span style="color: #10B981;">+1.05%</span></li>
         </ul>
       </div>
       <div>
         <strong style="color: #EF4444; font-size: 0.85rem; display: block; margin-bottom: 0.5rem;">TOP LOSERS</strong>
         <ul style="list-style: none; padding: 0; margin: 0; color: rgba(255, 255, 255, 0.8); font-size: 0.9rem;">
-          <li style="margin-bottom: 0.25rem;">Wipro <span style="color: #EF4444;">-2.83%</span></li>
-          <li style="margin-bottom: 0.25rem;">HDFC Life <span style="color: #EF4444;">-2.41%</span></li>
-          <li style="margin-bottom: 0.25rem;">Sun Pharma <span style="color: #EF4444;">-1.04%</span></li>
-          <li>Bajaj Auto <span style="color: #EF4444;">-0.76%</span></li>
+          <li style="margin-bottom: 0.25rem;">Power Grid <span style="color: #EF4444;">-4.11%</span></li>
+          <li style="margin-bottom: 0.25rem;">IndiGo <span style="color: #EF4444;">-3.28%</span></li>
+          <li style="margin-bottom: 0.25rem;">ONGC <span style="color: #EF4444;">-3.01%</span></li>
+          <li style="margin-bottom: 0.25rem;">Max Healthcare <span style="color: #EF4444;">-2.86%</span></li>
+          <li>Eicher Motors <span style="color: #EF4444;">-2.78%</span></li>
         </ul>
       </div>
     </div>
@@ -60,8 +62,8 @@ window.NAVRO_DATA = {
 </div>
 
 <div style="background: rgba(255, 255, 255, 0.05); border-left: 4px solid #10B981; padding: 1.5rem; border-radius: 0 12px 12px 0;">
-  <h4 style="margin-top: 0; color: #10B981; margin-bottom: 0.5rem;">Word of the Day: Debt-to-Equity Ratio</h4>
-  <p style="margin-bottom: 0; color: rgba(255, 255, 255, 0.9); line-height: 1.6;">The <strong style="color: #FFFFFF;">Debt-to-Equity (D/E) Ratio</strong> is used to evaluate a company's financial leverage and is calculated by dividing total liabilities by shareholder equity. It shows how much debt a company is using to finance its assets relative to the value of shareholders' equity.</p>
+  <h4 style="margin-top: 0; color: #10B981; margin-bottom: 0.5rem;">Word of the Day: Days Payable Outstanding (DPO)</h4>
+  <p style="margin-bottom: 0; color: rgba(255, 255, 255, 0.9); line-height: 1.6;"><strong style="color: #FFFFFF;">Days Payable Outstanding (DPO)</strong> is a ratio that measures how long it takes a company to pay its bills and invoices. A high DPO lets companies use available cash for short-term investments and working capital, but may also signal cash shortfall. DPO varies by industry and company size — larger companies often have more negotiation power to delay payments.</p>
 </div>`,
   "corporateBonds": [
     {
