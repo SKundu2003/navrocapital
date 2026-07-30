@@ -26,7 +26,6 @@ const CONFIG = {
 
   // localStorage keys
   storageKeys: {
-    marketInsight: 'navro_market_insight',
     isAdmin: 'navro_is_admin'
   }
 };

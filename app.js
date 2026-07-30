@@ -8,7 +8,6 @@ document.addEventListener('DOMContentLoaded', () => {
   initScheduleLinks();
   initClickToCopy();
   initScrollAnimations();
-  initMarketInsight();
   initBondsTable();
   initStocksTable();
   initMutualFundsTable();
@@ -174,71 +173,6 @@ function initScrollAnimations() {
   elements.forEach(el => observer.observe(el));
 }
 
-// ============================================
-// Market Insight (Home Page)
-// ============================================
-function initMarketInsight() {
-  const insightText = document.getElementById('insightText');
-  const insightEditBtn = document.getElementById('insightEditBtn');
-  const insightEditor = document.getElementById('insightEditor');
-  const insightTextarea = document.getElementById('insightTextarea');
-  const insightSave = document.getElementById('insightSave');
-  const insightCancel = document.getElementById('insightCancel');
-
-  if (!insightText) return;
-
-  // Load insight text
-  const savedInsight = localStorage.getItem(CONFIG.storageKeys.marketInsight);
-
-  if (savedInsight) {
-    insightText.innerHTML = savedInsight;
-  } else {
-    // Load from data.js
-    if (window.NAVRO_DATA && window.NAVRO_DATA.marketInsight) {
-      insightText.innerHTML = window.NAVRO_DATA.marketInsight;
-    } else {
-      insightText.innerHTML = 'Markets are showing resilience amid global uncertainty. Contact us for personalized insights.';
-    }
-  }
-
-  // Admin mode
-  const isAdmin = localStorage.getItem(CONFIG.storageKeys.isAdmin) === 'true';
-  if (isAdmin && insightEditBtn) {
-    insightEditBtn.classList.add('show');
-  }
-
-  if (insightEditBtn) {
-    insightEditBtn.addEventListener('click', () => {
-      insightTextarea.value = insightText.innerHTML;
-      insightText.style.display = 'none';
-      insightEditor.classList.add('active');
-      insightEditBtn.style.display = 'none';
-      insightTextarea.focus();
-    });
-  }
-
-  if (insightSave) {
-    insightSave.addEventListener('click', () => {
-      const newText = insightTextarea.value.trim();
-      if (newText) {
-        insightText.innerHTML = newText;
-        localStorage.setItem(CONFIG.storageKeys.marketInsight, newText);
-        showToast('Market insight updated successfully');
-      }
-      insightText.style.display = '';
-      insightEditor.classList.remove('active');
-      insightEditBtn.style.display = '';
-    });
-  }
-
-  if (insightCancel) {
-    insightCancel.addEventListener('click', () => {
-      insightText.style.display = '';
-      insightEditor.classList.remove('active');
-      insightEditBtn.style.display = '';
-    });
-  }
-}
 
 // ============================================
 // Bonds Table
